@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+  <aside class="menu  white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;" >
+        <a href="#home">LOGO</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#grid-one">grid-one</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#grid-two">grid-two</a></li>
+          <li><a href="#pricing">pricing</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+          <h2>January brings us Firefox 85</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum dolorum atque, aut vel sit aliquam, quam sint repellendus nihil eaque quidem amet consequuntur asperiores. Dicta sint a eaque fugiat ullam.</p>
+      </div>
+      <div class="intro-img"><img src="assets/img/javascript.svg" alt="Logo de html, css e js."></div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>top 3 jobs</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quidem vitae at blanditiis, deleniti hic fugiat, ea repudiandae nulla pariatur placeat recusandae, accusamus ad ipsam voluptatum ab quia exercitationem officia.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quidem vitae at blanditiis, deleniti hic fugiat, ea repudiandae nulla pariatur placeat recusandae, accusamus ad ipsam voluptatum ab quia exercitationem officia.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quidem vitae at blanditiis, deleniti hic fugiat, ea repudiandae nulla pariatur placeat recusandae, accusamus ad ipsam voluptatum ab quia exercitationem officia.</p>
+    </div>
+  </section>
+
+  <section id="grid-one" class="grid-one mains-bg section">
+      <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Uma breve descrição</p>
+      <div class="grid">
+        <article>
+          <h3>Teste 1</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quam perferendis quis est culpa doloribus tempora aliquid rem quia incidunt velit, sunt officiis consequatur, quaerat ipsum odit cum natus accusantium!</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quam perferendis quis est culpa doloribus tempora aliquid rem quia incidunt velit, sunt officiis consequatur, quaerat ipsum odit cum natus accusantium!</p>
+        </article>
+        <article>
+          <h3>Teste 3</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quam perferendis quis est culpa doloribus tempora aliquid rem quia incidunt velit, sunt officiis consequatur, quaerat ipsum odit cum natus accusantium!</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Uma breve descrição</p>
+      
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="/SESSAO - 19 - LANDING PAGE/assets/img/jacek-janiczak-L1y1yo1Q_ZQ-unsplash.jpg" width="360" height="360" alt="random image from unsplash"/>
+        </div>
+
+        <div class="gallery-img">
+          <img src="/SESSAO - 19 - LANDING PAGE/assets/img/mathias-reding-Cqa26OOubMs-unsplash.jpg" width="360" height="360" alt="random image from unsplash"/>
+        </div>
+
+        <div class="gallery-img">
+          <img src="/SESSAO - 19 - LANDING PAGE/assets/img/usgs-9af4Yi_zx7U-unsplash.jpg" width="360" height="360" alt="random image from unsplash"/>
+        </div>
+
+        <div class="gallery-img">
+          <img src="/SESSAO - 19 - LANDING PAGE/assets/img/usgs-lR64CdOHZhg-unsplash.jpg" width="360" height="360" alt="random image from unsplash"/>
+        </div>
+
+        <div class="gallery-img">
+          <img src="/SESSAO - 19 - LANDING PAGE/assets/img/usgs-rHCdqRXeQNY-unsplash.jpg" width="360" height="360" alt="random image from unsplash"/>
+        </div>
+
+        <div class="gallery-img">
+          <img src="/SESSAO - 19 - LANDING PAGE/assets/img/usgs-UrMGQNrkdO0-unsplash.jpg" width="360" height="360" alt="random image from unsplash"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="grid-two" class="grid-one mains-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Uma breve descrição</p>
+      <div class="grid">
+        <article>
+          <h3>Teste 1</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quam perferendis quis est culpa doloribus tempora aliquid rem quia incidunt velit, sunt officiis consequatur, quaerat ipsum odit cum natus accusantium!</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quam perferendis quis est culpa doloribus tempora aliquid rem quia incidunt velit, sunt officiis consequatur, quaerat ipsum odit cum natus accusantium!</p>
+        </article>
+        <article>
+          <h3>Teste 3</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quam perferendis quis est culpa doloribus tempora aliquid rem quia incidunt velit, sunt officiis consequatur, quaerat ipsum odit cum natus accusantium!</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Pricing</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quidem vitae at blanditiis, deleniti hic fugiat, ea repudiandae nulla pariatur placeat recusandae, accusamus ad ipsam voluptatum ab quia exercitationem officia.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quidem vitae at blanditiis, deleniti hic fugiat, ea repudiandae nulla pariatur placeat recusandae, accusamus ad ipsam voluptatum ab quia exercitationem officia.</p>
+      
+      <div class="responsive-table">
+        <table>
+          <caption>Pricing table</caption>
+
+          <thead>
+            <tr>
+            <th>Title 1</th>
+            <th>Title 2</th>
+            <th>Title 3</th>
+            <th>Title 4</th>
+            <th>Title 5</th>
+          </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+              <td>Content 1</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+          <h2>January brings us Firefox 85</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum dolorum atque, aut vel sit aliquam, quam sint repellendus nihil eaque quidem amet consequuntur asperiores. Dicta sint a eaque fugiat ullam.</p>
+      </div>
+      <div class="intro-img"><img src="assets/img/javascript.svg" alt="Logo de html, css e js."></div>
+      
+
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+          <div class="form-group">
+            <label for="first-name">First name:</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last name:</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last-name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mai:l</label>
+            <input type="text" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+
+        </fieldset>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p>Feito com 💙 por Lucas Souza</p>
+  </footer>
+
+
+</body>
+</html>
+
