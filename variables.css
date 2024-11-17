@@ -1,0 +1,8 @@
+:root {
+ /* variaveis gerais do site. */
+ --primary-color: #0A1128;
+ --white-color: #FFFFFF;
+ --light-gray-color: #EEEEEE;
+ --secondary-color: rgb(226, 20, 62);
+ --gap: 3rem;
+}
